@@ -1,0 +1,84 @@
+.top-collector-home-container {
+    position: absolute;
+    .NavBar {
+        // Styles if any
+        width: 100vw;
+        }
+        .inner-container {
+            display: flex;
+            justify-content: space-between;
+            .dashboard {
+                width: 300px;
+                display: flex;
+                height:90vh;
+                background-image: linear-gradient(#323CD4, #2E38C3);
+                margin-right: 40px;
+                margin-left: 20px;
+                a {
+                    color: white;
+                }
+            }
+            .validate-servings-before-pickup {
+                width: 60%;
+                // width: 700px;
+                // margin: 0 auto;
+                margin-top: 50px;
+                .header {
+                    margin-bottom: 50px;
+                }
+            }
+            .maps-placeholder {
+                position: relative;
+                left: -50px;
+                top: 80px;
+                height: 400px;
+                width: 600px;
+            }
+        }
+    
+    .collector-search-jobs-landing {
+        display: flex;
+        .search-jobs{ 
+            .open-jobs-toasts {
+                margin-top: 20px;
+                .toaster {
+                    &:hover {
+                        cursor: pointer;
+                    }
+                }
+            }
+        }
+    }
+    
+    a {
+        color: white!important;
+    }
+    
+    // Breaching Structure in the interest of time :( 
+    
+    .delivery-buttons {
+        padding:20px;
+        display: flex;
+        justify-content: space-around;
+        min-width: 400px;
+    
+    }
+    
+    // Remove Number DropDown arrow in the Input field
+    input[type=number]::-webkit-inner-spin-button,
+    input[type=number]::-webkit-outer-spin-button {
+      -webkit-appearance: none;
+      margin: 0;
+    }
+}
+    
+
+.collector-to-producer {
+    margin: 0px auto;
+}
+.reach-producer-btn {
+    position: absolute;
+    height: 50px;
+    right: 20%;
+    top: 80%;
+}

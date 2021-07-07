@@ -1,0 +1,38 @@
+.collector-login-parent-container {
+    display: flex;
+    margin:0px auto;
+    top: 25%;
+    position: relative;
+    width: 80%;
+    flex: 1;
+    .left-design {
+        background-repeat: no-repeat;
+        background-size: cover;
+        flex: 1;
+        background-image: url('/assets/images/collectingFood.png');
+    }
+    .right-design {
+        .collector-login-container {
+            .header {
+                margin-bottom: 20px;
+            }
+            a { // Style React-router Link elements
+                color: white;
+            }
+            width : 700px;
+            margin: 0px auto;
+            padding: 100px 100px;
+            .login-button {
+                display: flex;
+                justify-content: center;
+            }
+            .accessibility-buttons {
+                margin-top: 50px;
+                display: flex;
+                flex-direction: row;
+                justify-content: space-around;
+            }
+        } 
+    }
+
+}

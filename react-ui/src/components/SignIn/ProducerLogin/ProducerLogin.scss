@@ -1,0 +1,38 @@
+.producer-login-parent {
+    top: 15%;
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    margin: 0px auto;
+    width: 80%;
+    flex: 1;
+
+    .producer-left-design{
+        background-image: url('/assets/images/producer-login-image.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        flex: 1;
+    }
+    .producer-right-design {
+        flex: 1;
+        .header {
+            margin-bottom: 20px;
+        }
+        a { // Style React-router Link elements
+            color: white;
+        }
+            width : 700px;
+            margin: 0px auto;
+            padding: 50px 50px;
+        .login-button {
+            display: flex;
+            justify-content: center;
+        }
+        .accessibility-buttons {
+            margin-top: 30px;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+        }
+    }
+}

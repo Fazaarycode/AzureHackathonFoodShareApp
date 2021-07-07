@@ -1,0 +1,16 @@
+.navbar-container {
+    margin: 20px;
+    .persona-selection {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        a {
+            color: white;
+            &:hover {
+                color: white;
+        
+            }
+        }
+    }
+
+}

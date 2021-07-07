@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,500;1,300&display=swap');
+
+.landing-page-container {
+    filter: blur(0)!important;
+    display: flex;
+    border: 1px solid black;
+    justify-content: space-around;
+    font-family: 'Montserrat', sans-serif;
+    border:none;
+    width: 80%;
+    margin: 0px auto;
+    top: 25%;
+    position: relative;
+    .left-design {
+        background: url('/assets/images/foodLandingImage.jpg');
+        background-repeat: no-repeat;
+        flex: 1;
+        background-size: cover;
+    }
+    .right-design {
+        flex:1;
+        .header-persona {
+            text-align: center;
+        }
+        .persona-list {
+            width: 400px;
+            margin: 0px auto;
+            margin-top:40px;
+            *  {
+                font-weight: 500;
+                font-size: 40px;
+                color: #E66D3A;
+                padding: 20px 20px;
+                text-align: center;
+            }
+            button {
+                width: 400px;
+                background-color: #E66D3A;
+                border: none;
+                // border: none
+                a {
+                    color: #FFFFFF;
+                    &:hover {
+                        text-decoration: none;
+                    }
+                }
+                // background: none;
+                // border: 0;
+                // border-bottom:3px solid black;
+                // &:hover {
+                //     border-bottom:5px solid black;
+                //     a {
+                //         text-decoration: none;
+                //     }
+                // }
+            }
+        }
+    }
+}

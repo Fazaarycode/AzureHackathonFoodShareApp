@@ -1,0 +1,20 @@
+.modal-footer-buttons {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    .self-deliver {
+        display: flex;
+        flex-direction: row;
+        background-color: red;
+        a {
+            color: white;
+        }
+    }
+}
+
+// Remove Number DropDown arrow in the Input field
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}

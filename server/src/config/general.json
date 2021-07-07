@@ -1,0 +1,12 @@
+{
+  "vault": {
+    "name": "foodshareappVault",
+    "region": "australiasoutheast"
+  },
+  "map": {
+    "keySecretName": "foodshareappmapkey"
+  },
+  "db": {
+    "passSecretName": "fs-db-pass"
+  }
+}

@@ -1,0 +1,12 @@
+.App {
+    .inner-app{ 
+    
+    background: linear-gradient(to bottom, #c06c84, #355c7d, #6c5b7b);
+        box-sizing: border-box;
+        height: 1500px;
+        * >  {
+            // filter: blur(8px);
+        }
+    }
+}
+    

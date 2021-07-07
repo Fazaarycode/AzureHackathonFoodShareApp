@@ -1,0 +1,13 @@
+.dashboard-listing {
+    .nav-item {
+        margin-bottom: 30px;
+        &:first-child {
+            margin-top: 30px;
+        }
+        &:hover {
+            color: #E66D3A;
+        }
+    }
+    /* height: 100vh; */
+    // width: 30%;
+}
